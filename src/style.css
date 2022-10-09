@@ -1,0 +1,78 @@
+body {
+  padding: 20px;
+  color : white;
+  font-family:  cursive, monospace, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.weather {
+  height: 10%;
+  text-align: right;
+  padding-right: 70px;
+}
+
+.weather span {
+  display: block;
+  font-size: 20px;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-size: 70px;
+}
+
+.main h2 {
+  font-size: 45px;
+}
+
+.clock {
+  height: 10%;
+}
+
+.login {
+  height: 15%;
+}
+
+input {
+  background: 0;
+  font-size: 20px;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid white;
+}
+
+#login-form input {
+  font-size: 40px;
+}
+
+::placeholder {
+  color:white;
+  text-align: center;
+  font-family: cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border : none;
+  color : white;
+}
+
+.hidden {
+    display: none;
+}
